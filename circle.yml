@@ -1,5 +1,8 @@
-deployment:
-    aws:
-    branch: master
-        commands:
-        - aws s3 sync . s3://$BUCKET/ --delete
+dependencies:
+    override:
+        - bundle install
+        - sudo pip install awscli
+        
+test:
+    override:
+        - echo "test"
