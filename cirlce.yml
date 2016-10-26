@@ -1,3 +1,7 @@
+test:
+  override:
+    - echo "test"
+
 dependencies:
     override:
         - bundle install
