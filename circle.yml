@@ -10,4 +10,4 @@ deployment:
   master:
     branch: master
     commands:
-      - aws s3 sync / s3://$BUCKET/ --delete
+      - aws s3 sync /home/ubuntu/personalSite s3://$BUCKET/ --delete
