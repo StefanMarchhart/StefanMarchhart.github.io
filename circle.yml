@@ -1,12 +1,12 @@
-test:
-  override:
-    - echo "test"
-
 dependencies:
     override:
         - bundle install
         - sudo pip install awscli
-
+        
+test:
+  override:
+    - echo "test"
+    
 deployment:
     aws:
     branch: master
