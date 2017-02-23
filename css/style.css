@@ -75,4 +75,7 @@ footer{
     line-height: 110%;
     margin: 0.82rem 0 0.656rem 0;
 }
+.link{
+    text-decoration: underline;
+}
         
