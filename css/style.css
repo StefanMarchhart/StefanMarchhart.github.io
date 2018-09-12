@@ -5,7 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -13,6 +12,15 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+li {
+  font-size: 1.3rem;
+}
+
+span {
+  font-size: 2rem;
 }
 
 .button-collapse {
@@ -23,37 +31,42 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
-  .parallax-container{
-  height: 450px;
-}
+
+  .parallax-container {
+    height: 450px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
-  .parallax-container{
-  height: 575px;
-}
+
+  .parallax-container {
+    height: 575px;
+  }
 }
 
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -62,27 +75,28 @@ footer.page-footer {
   margin: 0;
 }
 
-.big-button-text{
+.big-button-text {
   font-size: 1.5rem;
 }
 
-footer{
+footer {
   padding-top: 0 !important;
 }
 
-.header_but_not_really{
+.header_but_not_really {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0;
 }
-.link{
+
+.link {
   text-decoration: underline;
 }
-        
-.shadowed{
+
+.shadowed {
   text-shadow: 0px 0px 10px black
 }
 
-.blur{
+.blur {
   filter: blur(5px);
 }
